@@ -8,6 +8,7 @@ namespace sigma_9
     class Storage
     {
         private List<Product> _data = new List<Product>();
+        //чому така подія?
         public event EventHandler<IncorrectInputEventArgs> IncorrectInput;
         public event EventHandler OutstandingSearch;
 
